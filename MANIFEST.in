@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include newbnd *.css
+recursive-include newbnd *.csv
+recursive-include newbnd *.html
+recursive-include newbnd *.ico
+recursive-include newbnd *.js
+recursive-include newbnd *.json
+recursive-include newbnd *.md
+recursive-include newbnd *.png
+recursive-include newbnd *.py
+recursive-include newbnd *.svg
+recursive-include newbnd *.txt
+recursive-exclude newbnd *.pyc
